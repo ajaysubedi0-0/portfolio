@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="output.css" />
+
+  <style>
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .fade-in {
+      animation: fade-in 0.5s ease-in;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+  <header class="bg-blue-500 text-white p-4">
+    <h1 class="text-3xl text-center">Ajay Subedi</h1>
+    <p class="text-center">Full Stack Developer</p>
+  </header>
+
+
+
+  <main class="container mx-auto my-6">
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">About Me</h2>
+      <p>I am a dedicated web developer specializing in Full-Stack development using HTML, CSS, JavaScript, and
+        Tailwind.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-4"><!--Project cards-->
+        <div
+          class="bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl fade-in">
+          <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+          <p class="text-gray-600">A brief description of project 1 </p>
+          <a href="#" class="text-blue-500 hover:underline">View Project</a>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl fade-in">
+          <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+          <p class="text-gray-600">A brief description of project 2</p>
+          <a href="#" class="text-blue-500 hover:underline">View Project</a>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl fade-in">
+          <h3 class="text-xl font-semibold mb-2">project 3</h3>
+          <p class="text-gray-600">A brief description of project 3</p>
+          <a href="#" class="text-blue-500 hover:underline">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+      <p>
+        Email:
+        <a href="mailto:ajaysubedihtd78@gmail.com" class="text-blue-500">ajaysubedihtd78@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-blue-500 text-white text-center p-4 mt-8">
+    <p>&copy; 2024 Ajay Subedi</p>
+    <a href="https://www.linkedin.com/in/ajay-subedi-90b016195/" class="hover:underline">LinkedIn</a>
+    <a href="https://github.com/ajaysubedi0-0" class="hover:underline">GitHub</a>
+  </footer>
+</body>
+
+</html>
